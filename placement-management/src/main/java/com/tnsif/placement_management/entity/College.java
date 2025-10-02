@@ -1,7 +1,7 @@
 package com.tnsif.placement_management.entity;
 
 import jakarta.persistence.*;
-
+//entity class are tables in database
 @Entity
 public class College {
 
