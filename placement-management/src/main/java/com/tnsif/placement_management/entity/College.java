@@ -1,7 +1,7 @@
 package com.tnsif.placement_management.entity;
 
 import jakarta.persistence.*;
-//entity class are tables in database
+
 @Entity
 public class College {
 
@@ -13,16 +13,20 @@ public class College {
     private String location;
     private String email;
     private String phone;
+    private String affiliation;    // new field
+    private int establishedYear;   // new field
 
     // Constructors
     public College() {}
 
-    public College(Long id, String collegeName, String location, String email, String phone) {
+    public College(Long id, String collegeName, String location, String email, String phone, String affiliation, int establishedYear) {
         this.id = id;
         this.collegeName = collegeName;
         this.location = location;
         this.email = email;
         this.phone = phone;
+        this.affiliation = affiliation;
+        this.establishedYear = establishedYear;
     }
 
     // Getters and Setters
@@ -40,4 +44,11 @@ public class College {
 
     public String getPhone() { return phone; }
     public void setPhone(String phone) { this.phone = phone; }
+
+    public String getAffiliation() { return affiliation; }
+    public void setAffiliation(String affiliation) { this.affiliation = affiliation; }
+
+    public int getEstablishedYear() { return establishedYear; }
+    public void setEstablishedYear(int establishedYear) { this.establishedYear = establishedYear; }
 }
+

@@ -39,8 +39,11 @@ public class CollegeServiceImpl implements CollegeService {
         existing.setLocation(college.getLocation());
         existing.setEmail(college.getEmail());
         existing.setPhone(college.getPhone());
+        existing.setAffiliation(college.getAffiliation());        // new
+        existing.setEstablishedYear(college.getEstablishedYear()); // new
         return repo.save(existing);
     }
+
 
     @Override
     public void deleteCollege(Long id) {
