@@ -1,12 +1,12 @@
-package com.tnsif.placement_management;
+package com.tnsif.collegeservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PlacementManagementApplication {
+public class CollegeServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlacementManagementApplication.class, args);
+		SpringApplication.run(CollegeServiceApplication.class, args);
 	}
 }

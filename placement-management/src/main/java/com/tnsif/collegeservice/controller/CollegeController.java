@@ -1,8 +1,9 @@
-package com.tnsif.placement_management.controller;
+package com.tnsif.collegeservice.controller;
 
-import com.tnsif.placement_management.entity.College;
-import com.tnsif.placement_management.service.CollegeService;
 import org.springframework.web.bind.annotation.*;
+
+import com.tnsif.collegeservice.entity.College;
+import com.tnsif.collegeservice.service.CollegeService;
 
 import java.util.List;
 

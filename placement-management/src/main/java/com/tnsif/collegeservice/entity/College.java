@@ -1,4 +1,4 @@
-package com.tnsif.placement_management.entity;
+package com.tnsif.collegeservice.entity;
 
 import jakarta.persistence.*;
 

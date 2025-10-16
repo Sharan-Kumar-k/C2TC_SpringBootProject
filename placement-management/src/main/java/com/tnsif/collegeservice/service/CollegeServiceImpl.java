@@ -1,8 +1,9 @@
-package com.tnsif.placement_management.service;
+package com.tnsif.collegeservice.service;
 
-import com.tnsif.placement_management.entity.College;
-import com.tnsif.placement_management.repository.CollegeRepository;
 import org.springframework.stereotype.Service;
+
+import com.tnsif.collegeservice.entity.College;
+import com.tnsif.collegeservice.repository.CollegeRepository;
 
 import java.util.List;
 

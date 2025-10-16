@@ -1,8 +1,8 @@
-package com.tnsif.placement_management.service;
-
-import com.tnsif.placement_management.entity.College;
+package com.tnsif.collegeservice.service;
 
 import java.util.List;
+
+import com.tnsif.collegeservice.entity.College;
 
 public interface CollegeService {
 
